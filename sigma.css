@@ -13,6 +13,7 @@
 
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..700;1,300..700&display=swap');
 
 /* Don't remove Bauhaus yet, still onsite dependencies to resolve */
 @import url('https://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css');
@@ -20,11 +21,11 @@
 /* FONT-FACE */
 
 @font-face {
-	font-family: 'Sans Normalcy';
+	font-family: 'Mohave';
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	src: url('https://cdn.scpwiki.com/theme/en/sigma/fonts/Sans-Normalcy.woff2')
+	src: url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300..700;1,300..700&display=swap')
 		format('woff2');
 }
 
