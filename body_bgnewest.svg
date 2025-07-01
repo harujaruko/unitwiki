@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="400px" viewBox="0 0 100 400" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="c" x1="50" x2="50" y1="138" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.0076" stop-opacity=".16"/>
+      <stop offset="0.0916" stop-opacity=".4"/>
+      <stop offset="0.1069" stop-opacity=".051"/>
+      <stop offset="1" stop-color="#f9f9f9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="d" x1="50" x2="50" y1="141" y2="161" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#535353"/>
+      <stop offset="0.15" stop-color="#4f4f4f"/>
+      <stop offset="0.5" stop-color="#444"/>
+      <stop offset="0.8182" stop-color="#3e3e3e"/>
+      <stop offset="1" stop-color="#3b3b3b"/>
+    </linearGradient>
+    <linearGradient id="a" x1="50" x2="50" y2="132" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.5"/>
+      <stop offset="0.6818" stop-color="#221414"/>
+      <stop offset="0.8333" stop-color="#472a2a"/>
+      <stop offset="1" stop-color="#673d3d"/>
+    </linearGradient>
+    <linearGradient id="b" x1="50" x2="50" y1="135" y2="66" gradientUnits="userSpaceOnUse" spreadMethod="reflect" gradientTransform="matrix(1, 0, 0, 1, -0.0003, 0)">
+      <stop offset="0" stop-color="#734646"/>
+      <stop offset="0.5" stop-color="#623c3c" stop-opacity=".53"/>
+      <stop offset="1" stop-color="#653e3e" stop-opacity=".25"/>
+    </linearGradient>
+    <filter id="invert-filter-0" bx:preset="invert 1 1" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="1 0"/>
+        <feFuncG type="table" tableValues="1 0"/>
+        <feFuncB type="table" tableValues="1 0"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="posterize-filter-0" bx:preset="posterize 1 gb 1 0.45" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
+      <feColorMatrix type="saturate" values="0.45"/>
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues=""/>
+        <feFuncG type="discrete" tableValues="0 1"/>
+        <feFuncB type="discrete" tableValues="0 1"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="x-ray-filter-0" bx:preset="x-ray 1" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%">
+      <feColorMatrix type="matrix" values="-1 0 0 0 0 0 -1 0 0 0 0 0 -1 0 0 1 1 1 0 0"/>
+    </filter>
+  </defs>
+  <path fill="url(#a)" d="M0 0h100v141.3534H0z" style="filter: url(&quot;#posterize-filter-0&quot;);"/>
+  <path d="M 0 0 L 0 0.474 L 100 100.725 L 100 99.777 L 0.473 0 L 0 0 L 0 0 Z M 4.527 0 L 100 95.712 L 100 94.765 L 5.473 0.001 L 4.528 0.001 L 4.527 0 Z M 9.527 0 L 100 90.7 L 100 89.752 L 10.473 0.001 L 9.528 0.001 L 9.527 0 Z M 14.527 0 L 100 85.687 L 100 84.74 L 15.473 0.001 L 14.528 0.001 L 14.527 0 Z M 19.527 0 L 100 80.675 L 100 79.727 L 20.473 0.001 L 19.528 0.001 L 19.527 0 Z M 24.527 0 L 100 75.662 L 100 74.715 L 25.473 0.001 L 24.528 0.001 L 24.527 0 Z M 29.527 0 L 100 70.65 L 100 69.702 L 30.473 0.001 L 29.528 0.001 L 29.527 0 Z M 34.527 0 L 100 65.637 L 100 64.689 L 35.473 0.001 L 34.528 0.001 L 34.527 0 Z M 39.527 0 L 100 60.625 L 100 59.677 L 40.473 0.001 L 39.528 0.001 L 39.527 0 Z M 44.527 0 L 100 55.612 L 100 54.664 L 45.473 0.001 L 44.528 0.001 L 44.527 0 Z M 49.527 0 L 100 50.599 L 100 49.652 L 50.473 0.001 L 49.528 0.001 L 49.527 0 Z M 54.527 0 L 100 45.587 L 100 44.639 L 55.473 0.001 L 54.528 0.001 L 54.527 0 Z M 59.527 0 L 100 40.574 L 100 39.627 L 60.473 0.001 L 59.528 0.001 L 59.527 0 Z M 64.527 0 L 100 35.562 L 100 34.614 L 65.473 0.001 L 64.528 0.001 L 64.527 0 Z M 69.527 0 L 100 30.549 L 100 29.602 L 70.473 0.001 L 69.528 0.001 L 69.527 0 Z M 74.527 0 L 100 25.537 L 100 24.589 L 75.473 0.001 L 74.528 0.001 L 74.527 0 Z M 79.527 0 L 100 20.524 L 100 19.577 L 80.473 0.001 L 79.528 0.001 L 79.527 0 Z M 84.527 0 L 100 15.512 L 100 14.564 L 85.473 0.001 L 84.528 0.001 L 84.527 0 Z M 89.527 0 L 100 10.499 L 100 9.552 L 90.473 0 L 89.527 0 L 89.527 0 Z M 94.527 0 L 100 5.486 L 100 4.539 L 95.472 0 L 94.527 0 L 94.527 0 Z M 0 4.539 L 0 5.486 L 100 105.737 L 100 104.789 L 0 4.539 Z M 0 9.551 L 0 10.499 L 100 110.75 L 100 109.802 L 0 9.551 Z M 0 14.564 L 0 15.511 L 100 115.762 L 100 114.814 L 0 14.564 L 0 14.564 Z M 0 19.576 L 0 20.524 L 100 120.775 L 100 119.827 L 0 19.576 L 0 19.576 Z M 0 24.589 L 0 25.536 L 100 125.787 L 100 124.839 L 0 24.589 L 0 24.589 Z M 0 29.601 L 0 30.549 L 100 130.8 L 100 129.852 L 0 29.601 L 0 29.601 Z M 0 34.614 L 0 35.562 L 100 135.812 L 100 134.865 L 0 34.614 L 0 34.614 Z M 0 39.626 L 0 40.574 L 100 140.825 L 100 139.877 L 0 39.626 L 0 39.626 Z M 0 44.639 L 0 45.589 L 95.764 141.694 L 96.239 141.22 L 0.001 44.639 L 0 44.639 Z M 0 49.651 L 0 50.599 L 90.764 141.591 L 91.237 141.117 L 0.001 49.652 L 0 49.651 Z M 0 54.664 L 0 55.612 L 85.764 141.591 L 86.237 141.117 L 0.001 54.665 L 0 54.664 Z M 0 59.677 L 0 60.624 L 80.764 141.591 L 81.237 141.117 L 0.001 59.677 L 0 59.677 Z M 0 64.689 L 0 65.637 L 75.764 141.591 L 76.237 141.117 L 0.001 64.69 L 0 64.689 Z M 0 69.702 L 0 70.649 L 70.764 141.591 L 71.237 141.117 L 0.001 69.702 L 0 69.702 Z M 0 74.714 L 0 75.662 L 65.764 141.591 L 66.237 141.117 L 0.001 74.715 L 0 74.714 Z M 0 79.727 L 0 80.674 L 60.764 141.591 L 61.237 141.117 L 0.001 79.727 L 0 79.727 Z M 0 84.739 L 0 85.687 L 55.764 141.591 L 56.237 141.117 L 0.001 84.74 L 0 84.739 Z M 0 89.752 L 0 90.699 L 50.764 141.591 L 51.237 141.117 L 0.001 89.752 L 0 89.752 Z M 0 94.764 L 0 95.712 L 45.764 141.591 L 46.237 141.117 L 0.001 94.765 L 0 94.764 Z M 0 99.777 L 0 100.724 L 40.764 141.591 L 41.237 141.117 L 0.001 99.777 L 0 99.777 Z M 0 104.789 L 0 105.737 L 35.764 141.591 L 36.237 141.117 L 0.001 104.79 L 0 104.789 Z M 0 109.802 L 0 110.749 L 30.764 141.591 L 31.237 141.117 L 0.001 109.802 L 0 109.802 Z M 0 114.814 L 0 115.762 L 25.764 141.591 L 26.237 141.117 L 0.001 114.815 L 0 114.814 Z M 0 119.827 L 0 120.775 L 20.764 141.591 L 21.237 141.117 L 0.001 119.827 L 0 119.827 Z M 0 124.839 L 0 125.787 L 15.764 141.591 L 16.237 141.117 L 0.001 124.84 L 0 124.839 Z M 0 129.852 L 0 130.8 L 10.764 141.591 L 11.237 141.117 L 0.001 129.853 L 0 129.852 Z M 0 134.864 L 0 135.812 L 5.764 141.59 L 6.236 141.116 L 0 134.864 L 0 134.864 Z" style="paint-order: fill; fill-rule: nonzero; stroke-width: 5px; filter: url(&quot;#invert-filter-0&quot;);" fill="url(#b)"/>
+  <path fill="url(#c)" d="M0 137.3434V400h100V137.3434Z" style="filter: none;"/>
+  <path fill="url(#d)" d="M0 140.3509h100v22.0551H0z" style="filter: url(&quot;#x-ray-filter-0&quot;);"/>
+</svg>
